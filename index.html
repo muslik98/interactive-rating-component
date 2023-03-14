@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Frontend Mentor | Interactive rating component</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="./images/favicon-32x32.png" type="image/x-icon">
+  </head>
+  <body>
+    <div class="container">
+        <div class="card">
+            <div class="star">
+                <svg width="14" height="14" xmlns="http://www.w3.org/2000/svg">
+                    <path d="m 7.2536 0.344 l 1.592 3.2248 c 0.0896 0.1824 0.264 0.3088 0.464 0.3376 l 3.56 0.5176 a 0.6176 0.6176 90 0 1 0.3416 1.0528 l -2.576 2.5104 a 0.6184 0.6184 90 0 0 -0.1776 0.5464 l 0.608 3.5448 a 0.6176 0.6176 90 0 1 -0.896 0.6504 l -3.184 -1.6736 a 0.6184 0.6184 90 0 0 -0.5744 0 l -3.184 1.6736 a 0.6176 0.6176 90 0 1 -0.8952 -0.6504 l 0.608 -3.5448 a 0.616 0.616 90 0 0 -0.1776 -0.5464 L 0.1864 5.4768 A 0.6176 0.6176 90 0 1 0.5288 4.424 l 3.5592 -0.5176 a 0.6176 0.6176 90 0 0 0.464 -0.3376 L 6.144 0.344 a 0.6192 0.6192 90 0 1 1.1096 0 Z" fill="#FC7614"/>
+                  </svg>
+            </div>
+            <h3>How did we do?</h3>
+            <p>Please let us know how we did with your support request. All feedback is appreciated 
+                to help us improve our offering!</p>
+            <div class="rate">
+                <form action="">
+                    <div class="card-circle">
+                        <input type="hidden" name="rating" id="rating" value="0">
+                        <span class="circle">1</span>
+                        <span class="circle">2</span>
+                        <span class="circle">3</span>
+                        <span class="circle">4</span>
+                        <span class="circle">5</span>
+                        </div>
+                        <div class="button">
+                            <button id="submit" type="submit">SUBMIT</button>
+                        </div>
+                </form>
+            </div>
+        </div>
+    </div>
+	<script src="script.js"></script>
+  </body>
+</html>
